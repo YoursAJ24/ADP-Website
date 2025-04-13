@@ -1,0 +1,23 @@
+/* Inventory.css */
+
+/* Tick Button Styles */
+button {
+    cursor: pointer;
+  }
+  
+  button.bg-green-500 {
+    background-color: #48bb78;
+  }
+  
+  button.bg-red-500 {
+    background-color: #f56565;
+  }
+  
+  button.bg-green-500:hover {
+    background-color: #38a169;
+  }
+  
+  button.bg-red-500:hover {
+    background-color: #e53e3e;
+  }
+  

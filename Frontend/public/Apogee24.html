@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="../src/Components/Apogee/styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 1</p>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 2</p>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 3</p>
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 4</p>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 5</p>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 6</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 2</p>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 3</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 2</p>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="../src/assets/Cords/Aj.png" class="image" onclick="openModal(this.src)">
+                </div>
+                <p class="image-text">Image 3</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="../src/Components/Apogee/scripts.js"></script>
+</body>
+</html>
